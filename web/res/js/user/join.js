@@ -5,7 +5,8 @@
         // 아이디 중복 체크 버튼
         const idBtnChkElem = joinFrmElem.querySelector('#id-btn-chk');
         idBtnChkElem.addEventListener('click', () => {
-            alert('버튼클릭');
+            const idVal = joinFrmElem.uid.value;
+            alert(idVal);
         });
     }
 }
